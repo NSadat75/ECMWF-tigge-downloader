@@ -50,7 +50,10 @@ STEP = "0/6/12/18/24"
 # Output Directory
 OUTPUT_DIR = r"F:\ECMWF_Data"
 # --------------------------
+
+
 For a complete list of available parameters and their IDs, please refer to the official ECMWF GRIB Parameter Database.
+
 3. Add Your API Credentials
 
 You must also add your ECMWF API key and email address to the script. Find this section and replace the placeholder values:
@@ -61,6 +64,9 @@ server = ECMWFDataServer(
     key="YOUR_API_KEY",  # <-- IMPORTANT: Replace with your actual API key
     email="your.email@example.com"  # <-- IMPORTANT: Replace with your registered email
 )
+
+
+Important: Do not share your API key publicly. If you are using Git, make sure this file is included in your .gitignore if you add your real key.
 
 4. Run the Script
 
