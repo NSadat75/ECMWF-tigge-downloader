@@ -37,7 +37,7 @@ pip install ecmwf-api-client
 
 ### 2. Configure the Script
 
-Open the `ecmwf_downloader.py` file in a text editor and modify the variables in the **USER CONFIGURATION** section.
+Open the `ECMWF_Data_Downloader.py` file in a text editor and modify the variables in the **USER CONFIGURATION** section.
 
 ```python
 # --- USER CONFIGURATION ---
